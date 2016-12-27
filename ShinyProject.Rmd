@@ -47,4 +47,5 @@ table(diamonds$clarity)
 - Legend information is sourced from the following websites:
     a. http://www.lumeradiamonds.com/diamond-education/diamond-cut
     b. http://4cs.gia.edu/en-us/diamond-clarity/
-- Application hosted at <a href="https://jaganrn.shinyapps.io/DataScience-DevelopingDataProducts-ShinyProject/">this link</a> 
+- Application hosted at <a href="https://jaganrn.shinyapps.io/DataScience-DevelopingDataProducts-ShinyProject/">this link</a>
+- Source code published at <a href="https://github.com/jaganrn/DataScience-DevelopingDataProducts-ShinyProject">github link</a>
