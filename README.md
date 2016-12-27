@@ -74,3 +74,5 @@ You can also publish using both formats to github manually using gh-pages, thoug
 1. There were no R errors displayed in the presentation.
 
 Create a web page presentation using R Markdown that features a plot created with Plotly. Host your webpage on either GitHub Pages, RPubs, or NeoCities. Your webpage must contain the date that you created the document, and it must contain a plot created with Plotly. We would love to see you show off your creativity!
+
+My Result is generated in HTML format and published at <a href="http://rpubs.com/jaganrn/237755">http://rpubs.com/jaganrn/237755</a>
