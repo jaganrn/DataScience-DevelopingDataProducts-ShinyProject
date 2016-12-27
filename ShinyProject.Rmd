@@ -1,0 +1,50 @@
+---
+title: "Carat to Price Relationship in Diamonds using Shiny"
+author: "Jagannatha Reddy"
+date: "12/26/2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+- application is build to demonstrate few features of Shiny
+- hosted at R Studio Shiny Sever. Click <a href="https://jaganrn.shinyapps.io/DataScience-DevelopingDataProducts-ShinyProject/">this link</a> to access 
+- **diamonds** data from in ggplot2 is used for analysis. Sample data given below
+
+```{r echo=TRUE, fig.align='center', results=FALSE, warning=FALSE, message=FALSE, comment=""}
+library(ggplot2)
+head(diamonds,4)
+```
+
+## Analysis by Diamond Cuts
+- cut: significantly affects appearance and value
+- one of the four Cs of diamond grading, the others being carat, color, and clarity
+- The following table shows number of records for each Cut
+```{r echo=TRUE, fig.align='center', results=FALSE, warning=FALSE, message=FALSE, comment="#"}
+table(diamonds$cut)
+```
+- select one or more Cuts for which analysis to be done
+- also chose the sample size and line size for plotting the data
+- Price by Carat shown for selected Cuts by each Clarity
+
+## Analysis by Diamond Clarity
+- clarity: relates to existence and visual appearance of internal characteristics
+- one of the four Cs of diamond grading, the others being carat, color, and cut
+- The following table shows number of records for each Clarity
+```{r echo=TRUE, fig.align='center', results=FALSE, warning=FALSE, message=FALSE, comment="#"}
+table(diamonds$clarity)
+```
+- select one or more Clarities for which analysis to be done
+- also chose the sample size and line size for plotting the data
+- Price by Carat shown for selected Clarities by each Cut
+
+## Summary
+- sample from **diamonds** data from in ggplot2 used for analysis
+- application demonstrates few features of Shiny. The features exposed are: Tab, CheckBox, Numeric Input, Action Buttion, Observer, Several Output functions
+- Legend information is sourced from the following websites:
+    a. http://www.lumeradiamonds.com/diamond-education/diamond-cut
+    b. http://4cs.gia.edu/en-us/diamond-clarity/
+- Application hosted at <a href="https://jaganrn.shinyapps.io/DataScience-DevelopingDataProducts-ShinyProject/">this link</a> 
